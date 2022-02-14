@@ -1,0 +1,93 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: sans-serif;
+    padding: 90px 20px 0;
+    background-color: whitesmoke;
+}
+
+.header {
+    background-color: red;
+    height: 80px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+}
+
+.nav{
+    display: flex;
+    justify-content: space-between;
+    max-width: 992px;
+    margin: 0 auto;
+    
+}
+
+.nav-link {
+    color: white;
+    text-decoration: none;
+}
+
+.logo {
+    font-size: 30px;
+    font-weight: bold;
+    
+    line-height: 80px;
+}
+.text {
+    display: flex;
+    margin-right: 40px;
+    font-size: 12px;
+    font-weight: bold;
+}
+.gtitle {
+    font-size: 20px;
+    font-weight: bold;
+    line-height: 40px;
+    color: white;
+    text-decoration: none;
+}
+
+.gtitle:hover {
+    background-color: darkred;
+    transition: 1s;
+    font-size: 24;
+}
+
+.gheader {
+    background-color: red;
+    left: 0;
+    height: 40px;
+    width: 100%;
+}
+.buy {
+    font-size: 18px;
+    margin: 5px 20px;
+    line-height: 25px;
+    background-color: yellow;
+    padding: 8px 12px;
+    border-radius: 6px;
+    text-decoration: none;
+    color: black;
+}
+.buy:hover {
+    background-color: #cccc00;
+    transition: 1s;
+}
+
+.pie {
+font-size: 14px;
+font-style: italic;
+}
+
+.link {
+    text-decoration: none;
+}
+
+.form{
+    font-size: 18px;
+    
+}
